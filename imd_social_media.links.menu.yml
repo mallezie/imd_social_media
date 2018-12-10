@@ -1,0 +1,5 @@
+imd_social_media.admin.settings:
+  title: 'Social media links'
+  parent: system.admin_config_ui
+  description: 'Configure Social media links.'
+  route_name: imd_social_media.admin.settings
