@@ -8,6 +8,9 @@ function imd_social_media_theme() {
         'social-media' => [
             'variables' => [
                 'facebook_url' => null,
+                'twitter_url' => null,
+                'linkedin_url' => null,
+                'instagram_url' => null,
             ],
         ],
     ];

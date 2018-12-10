@@ -1,10 +1,21 @@
 <div class="social-media">
+    {% if facebook_url %}
     <a href="{{ facebook_url }}" class="facebook" target="_blank"><i
         class="fa fa-facebook">Facebook</i></a>
-    <a href="https://twitter.com/intracto" class="twitter" target="_blank"><i
-        class="fa fa-twitter">Twitter</i></a>
-    <a href="https://www.linkedin.com/company/intracto-group-nv" class="linkedin" target="_blank"><i
-        class="fa fa-linkedin">Linkedin</i></a>
-    <a href="https://www.instagram.com/intractobe/?hl=en" class="instagram" target="_blank"><i
-        class="fa fa-instagram">Instagram</i></a>
+    {% endif %}
+    {% if twitter_url %}
+        <a href="{{ twitter_url }}" class="twitter" target="_blank">
+            <i class="fa fa-twitter">Twitter</i>
+        </a>
+    {% endif %}
+    {% if linkedin_url %}
+        <a href="{{ linkedin_url }}" class="linkedin" target="_blank">
+            <i class="fa fa-linkedin">Linkedin</i>
+        </a>
+    {% endif %}
+    {% if instagram_url %}
+        <a href="{{ instagram_url }}" class="instagram" target="_blank">
+            <i class="fa fa-instagram">Instagram</i>
+        </a>
+    {% endif %}
 </div>
