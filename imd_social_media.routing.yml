@@ -1,0 +1,6 @@
+imd_social_media.admin.settings:
+  path: '/admin/config/user-interface/imd-social-media/settings'
+  defaults:
+    _form: \Drupal\imd_social_media\Form\SettingsForm
+  requirements:
+    _permission: 'access administration pages'

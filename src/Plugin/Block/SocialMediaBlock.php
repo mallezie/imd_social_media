@@ -14,13 +14,14 @@ use Drupal\Core\Block\BlockBase;
  */
 class SocialMediaBlock extends BlockBase {
 
-  /**
-   * {@inheritdoc}
-   */
-  public function build() {
-    return [
-      '#theme' => 'social-media',
-    ];
-  }
+    /**
+     * {@inheritdoc}
+     */
+    public function build() {
+        return [
+            '#theme' => 'social-media',
+            '#facebook_url' => \Drupal::state()->get('imd_social_media.facebook_url')
+        ];
+    }
 
 }
