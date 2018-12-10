@@ -18,9 +18,9 @@ class SocialMediaBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-      return [
-          '#markup' => $this->t("Empty block"),
-      ];
+    return [
+      '#theme' => 'social-media',
+    ];
   }
 
 }

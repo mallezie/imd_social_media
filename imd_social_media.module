@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function imd_social_media_theme() {
+  return [
+    'social-media' => [
+      'variables' => [],
+    ],
+  ];
+}
